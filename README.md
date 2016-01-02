@@ -1,2 +1,1 @@
-# rpi-resources
-Some resources for Raspberry Pi
+# Enjoy your new Raspberry Pi, James -- Merry Christmas!

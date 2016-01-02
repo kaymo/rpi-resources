@@ -1,0 +1,315 @@
+/************* 
+    General 
+**************/
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Patua One', cursive !important;
+	color: inherit;
+}
+
+a 
+{
+    color: #8cc04b;
+}
+
+a:hover 
+{
+    color: #bad483;
+}
+
+h1
+{
+    color: #c7053d !important;
+}
+
+body
+{
+	background-color: black;
+}
+
+.center-div
+{
+	display: inline-block;
+}
+
+#one-page
+{
+	position: absolute;
+	top:400px;
+	width:100%;
+}
+
+.anchor
+{
+	position:absolute; 
+	top:-45px; 
+}
+
+.section-div
+{
+	position:relative;
+	padding:5%;
+	width:100%;
+  	text-align: center;
+}
+
+
+/**********
+    Menu 
+***********/
+
+.top-bar, .top-bar ul, .top-bar li,
+{
+	height: 45px !important;
+}
+
+body.f-topbar-fixed
+{
+	padding-top: 45px !important;
+	z-index:0;
+}
+
+.top-bar a
+{
+	height: 100% !important;
+}
+
+.top-bar, .top-bar ul li, .top-bar ul li a
+{
+	background-color: black !important;
+}
+
+.top-bar a:hover, .menu-icon a:hover
+{
+	background-color: #272727 !important;
+}
+
+.top-bar-section ul li a h4 
+{
+	color:        white;
+	margin-left:  5px;
+	margin-right: 5px;
+	padding-top:  2px;
+}
+
+.title-area li a h3 
+{
+	color:        white;
+	padding-top:  2px;
+	margin-left:  20px;
+	margin-right: 10px;
+}
+
+.top-bar.expanded 
+{
+	background-color: black;
+}
+
+.menu-icon a
+{
+	padding-bottom: 4px;
+}
+
+
+
+/*************
+	Header
+**************/
+
+#header
+{
+	min-width:100%; 
+	min-height:100%; 
+	width:  auto; 
+	height: auto;
+	position: fixed; 
+	z-index:-1;
+  	text-align: center;
+}
+
+#header img 
+{
+	height:300px;
+    margin-top: 75px;
+  	opacity:0.8;
+}
+
+#header-text
+{
+	width: 100%;
+	position: fixed;
+	top: 100px;
+  	text-align: center;
+}
+
+#header-text h1, #header-text h2
+{
+	color: white !important;
+}
+
+#header-text h1
+{
+	font-size: 400%;
+}
+
+#header-text h2
+{
+	font-size: 300%;
+}
+
+
+/*************
+	Intro
+**************/
+
+#intro-section
+{
+	background-color: #272727;
+	color:white !important;
+}
+
+#intro-header
+{
+  	text-align: left !important;
+  	margin-bottom:1rem;
+}
+
+.intro-text 
+{
+	max-width: 750px;
+}
+
+.intro-text h2,.intro-text h3
+{
+	color: white !important;
+}
+
+.intro-text h4,.intro-text h5,.intro-text h6
+{
+	color: white !important;
+  	text-align: left !important;
+}
+
+#one-page h4
+{
+    margin-bottom:1rem;
+}
+
+.intro-text a img
+{
+	height:200px;
+}
+
+
+/****************
+	Resources
+*****************/
+
+#resources-section
+{
+	background-color: white;
+	color: #272727;
+}
+
+#resources-header
+{
+  	text-align: left !important;
+  	margin-bottom:1rem;
+}
+
+.resources-text 
+{
+	max-width: 750px;
+}
+
+.resources-text h3,.resources-text h4,.resources-text h5,.resources-text h6
+{
+	color: #272727 !important;
+  	text-align: left !important;
+}
+
+
+/******************
+	Inspiration
+*******************/
+
+#inspiration-section
+{
+	background-color: #363636;
+	color: white !important;
+}
+
+#inspiration-header
+{
+  	text-align: left !important;
+  	margin-bottom:1rem;
+}
+
+.inspiration-text 
+{
+	max-width: 750px;
+}
+
+.inspiration-text h3,.inspiration-text h4,.inspiration-text h5,.inspiration-text h6
+{
+	color: white !important;
+  	text-align: left !important;
+}
+
+.inspiration-text img 
+{
+    border: 3px #272727 solid;
+}
+
+
+/**************
+	Footer
+***************/
+
+#footer
+{
+	background-color: black;
+	color:white;
+	
+	padding:8px;
+	
+	position:relative;
+	width:100%;
+}
+
+
+.footer-text h4, .footer-text h6
+{
+	color: white;
+  	text-align: center !important;
+}
+
+
+
+/*********************
+	Media Screens
+*********************/
+
+@media screen and (max-width: 700px) 
+{
+    #one-page 
+    {
+        top: 300px;
+    }
+    
+    img 
+    {
+        height:200px;
+    }
+    
+    #header-text h1
+    {
+        font-size: 250%;
+    }
+
+    #header-text h2
+    {
+        font-size: 150%;
+    }
+}

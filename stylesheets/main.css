@@ -33,10 +33,15 @@ body
 	display: inline-block;
 }
 
+#under-nav
+{
+	position: relative;
+}
+
 #one-page
 {
 	position: absolute;
-	top:400px;
+	top:325px;
 	width:100%;
 }
 
@@ -131,15 +136,14 @@ body.f-topbar-fixed
 #header img 
 {
 	height:300px;
-    margin-top: 75px;
   	opacity:0.8;
 }
 
 #header-text
 {
 	width: 100%;
-	position: fixed;
-	top: 100px;
+	position: absolute;
+	top: 50px;
   	text-align: center;
 }
 
@@ -293,15 +297,6 @@ body.f-topbar-fixed
 
 @media screen and (max-width: 700px) 
 {
-    #one-page 
-    {
-        top: 300px;
-    }
-    
-    img 
-    {
-        height:200px;
-    }
     
     #header-text h1
     {

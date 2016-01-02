@@ -12,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/foundation.min.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
         
+        <script type="text/javascript" src="javascript/modernizr.js"></script>
+        
         <title>Raspberry Pi Resources</title>
     
     </head>
@@ -24,157 +26,162 @@
                 
                 <!-- Title Area -->
                 <ul class="title-area">
-                    <li><a href="#"><h3>Merry Christmas, James!</h3></a></li>
+                    <li><a href="#"><h3>Merry Xmas, James!</h3></a></li>
                     <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
                 </ul>
         
                 <!-- Right Nav Section -->
                 <section class="top-bar-section">
                     <ul class="right">
-                        <li><a href="#intro"      ><h4>intro      </h4></a></li>
-                        <li><a href="#resources"  ><h4>resources  </h4></a></li>
-                        <li><a href="#inspiration"><h4>inspiration</h4></a></li>
+                        <li><a href="#intro"      ><h4>intro     </h4></a></li>
+                        <li><a href="#resources"  ><h4>resources </h4></a></li>
+                        <li><a href="#inspiration"><h4>ideas     </h4></a></li>
                     </ul>
                 </section>
             
             </nav>
         </div>
     
-
-        <!-- Header -->
-        <div id="header">
-            <div id="header-image">
-                <a href="https://www.raspberrypi.org"><img src="images/raspberry_pi_logo.svg" alt="Raspberry Pi Logo"/></a>
-            </div>
-            
-            <div id="header-text">
-                <h1> Raspberry Pi Resources </h1>
-                <h2> Merry Christmas, James! </h2>
-            </div>
-        </div>
+        <div id="under-nav">
         
-    
-        <div id="one-page">
-    
-            <!-- Intro -->
-            <div id="intro-section" class="section-div"><span id="intro" class="anchor"></span>
-                <div id="intro-header" class="intro-text">
-                    <h1> Intro to RPi </h1>
+            <!-- Header -->
+            <div id="header">
+                <div id="header-image">
+                    <a href="https://www.raspberrypi.org"><img src="images/raspberry_pi_logo.svg" alt="Raspberry Pi Logo"/></a>
                 </div>
-            
-                <div class="intro-text center-div">
-                    <h3> If you already have a <a href="https://www.raspberrypi.org">Raspberry Pi</a> (I'm hoping you don't!) or you know all about them, then you can skip this section ... </h3>
                 
-                    <br>
-                    
-                    <div class="row"> 
-                        <div class="small-12 medium-6 columns">
-                            <h6 class="center-div"><a href="https://www.raspberrypi.org/products/model-a-plus/">Raspberry Pi A+</a></h6>
-                            <a href="https://www.raspberrypi.org/products/model-a-plus/">
-                                <img src="https://www.raspberrypi.org/wp-content/uploads/2014/11/Model_A-.png" alt="Raspberry Pi A+"/>
-                            </a>
-                        </div>
-                    
-                        <div class="small-12 medium-6 columns">
-                            <br>
-                            <h4> RPis are essentially credit-card sized computers. </h4>
-                            <h4> They're intended for educational purposes, but for us they make a great basis for side-projects! </h4>
-                        </div>
-                        
-                         <div class="small-12 columns">
-                            <br>
-                            <h4> RPis are particularly great for embedded projects; the <a href="#inspiration">possible RPi uses</a> seem endless when the GPIO pins are considered.</h4>
-                            <h4> There are some great 'Getting Started' articles out there, including <a href="http://www.engadget.com/2012/09/04/raspberry-pi-getting-started-guide-how-to/">engagdet's</a> and <a href="https://www.raspberrypi.org/help/">Raspberry Pi's</a>. These both include the items that you'll need before getting started.
-                            <h4> To get going, you'll also need to <a href="https://www.raspberrypi.org/downloads/noobs/">load</a> an OS: <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> is the official open-source linux-based RPi OS, which is pre-installed with Python, Scratch, Sonic Pi, Java, Mathematica and more.</h4>
-                            <h4> Once up and running, you basically have a full Linux box running Debian.</h4>
-                        </div>
-                    </div>
+                <div id="header-text">
+                    <h1> Raspberry Pi Resources </h1>
+                    <h2> Merry Christmas, James! </h2>
                 </div>
             </div>
-        
-        
-            <!-- Resources -->
-            <div id="resources-section" class="section-div"><span id="resources" class="anchor"></span>
-                <div id="resources-header" class="resources-text">
-                    <h1> Resources </h1>
-                </div>
             
-                <div class="resources-text center-div">
-                    <div class="row"> 
-                        <div class="small-12 columns">
-                        
-                            <h2> Getting Started </h2>
-                            <h4><a href="https://www.raspberrypi.org/help/">RaspberryPi.org:</a> Help pages</h4>
-                            <h4><a href="http://www.engadget.com/2012/09/04/raspberry-pi-getting-started-guide-how-to/">Engagdet:</a> "So you got a Raspberry Pi: now what?"</h4>
-                            <h4><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Wikipedia:</a> Raspberry Pi</h4>
-                            
-                            <br>
-                            
-                            <h2> Further Reading </h2>
-                            <h4><a href="https://www.raspberrypi.org/magpi/">RaspberryPi.org:</a> Official magazine</h4>
-                            <h4><a href="http://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/">RPi.GPIO:</a> A Python module to control the GPIO on a Raspberry Pi.</h4>
-                            <h4><a href="http://piweekly.net/">PiWeekly:</a> Newsletter collating relevant articles from around the web.</h4>
-                            
-                            <br>
-                            
-                            <h2> Shop </h2>
-                            <h4><a href="https://www.raspberrypi.org/products/">RaspberryPi.org:</a> Official products</h4>
-                            <h4><a href="http://www.modmypi.com/raspberry-pi/">ModMyPi:</a> Great for components, sensors and accessories etc.</h4>
-                            <h4><a href="http://uk.rs-online.com/web/b/raspberry-pi/">RadioSpares:</a> Sells Raspberry Pi products (limited range) in shops as well as online.</h4>
-                            
-                            <br>
-                            
-                        </div>
+        
+            <div id="one-page">
+        
+                <!-- Intro -->
+                <div id="intro-section" class="section-div"><span id="intro" class="anchor"></span>
+                    <div id="intro-header" class="intro-text">
+                        <h1> Intro to RPi </h1>
                     </div>
-                </div>
-            </div>
-        
-    
-            <!-- Inspiration -->
-            <div id="inspiration-section" class="section-div"><span id="inspiration" class="anchor"></span>
-                <div id="inspiration-header" class="inspiration-text">
-                    <h1> Inspiration </h1>
-                </div>
-            
-                <div class="inspiration-text center-div">
-                    <div class="row">
-                        <div class="small-12 columns">
-                            <h2> Community </h2>
-                            <h4><a href="https://www.raspberrypi.org/forums/viewforum.php?f=15">RaspberryPi.org:</a> Projects forum</h4>
-                            <h4><a href="http://elinux.org/RPi_Projects">eLinux.org:</a> Open-source, on-going, collaborative projects and ideas.</h4>
-                            <h4><a href="https://hackaday.io/projects/tag/raspberry%20pi">hackaday.io:</a> Cool projects shared by proud creators.</h4>
+                
+                    <div class="intro-text center-div">
+                        <h3> If you already have a <a href="https://www.raspberrypi.org">Raspberry Pi</a> (I'm hoping you don't!) or you know all about them, then you can skip this section ... </h3>
+                    
+                        <br>
                         
-                            <br>
-                        
-                            <h2> Bunnies! </h2>
+                        <div class="row"> 
                             <div class="small-12 medium-6 columns">
-                                <h4><a href="http://sybil.no-ip.org:5001">Bunny Watcher:</a> My living room - captured, uploaded and served by a Raspberry Pi A+. </h4>
-                            </div>
-                            <div class="small-12 medium-6 columns">
-                                <a href="http://sybil.no-ip.org:5001">
-                                    <img src="images/bunnies.jpg" alt="Bunny Watcher"/>
+                                <h6 class="center-div"><a href="https://www.raspberrypi.org/products/model-a-plus/">Raspberry Pi A+</a></h6>
+                                <a href="https://www.raspberrypi.org/products/model-a-plus/">
+                                    <img src="https://www.raspberrypi.org/wp-content/uploads/2014/11/Model_A-.png" alt="Raspberry Pi A+"/>
                                 </a>
                             </div>
+                        
+                            <div class="small-12 medium-6 columns">
+                                <br>
+                                <h4> RPis are essentially credit-card sized computers. </h4>
+                                <h4> They're intended for educational purposes, but for us they make a great basis for side-projects! </h4>
+                            </div>
+                            
+                             <div class="small-12 columns">
+                                <br>
+                                <h4> RPis are particularly great for embedded projects; the <a href="#inspiration">possible RPi uses</a> seem endless when the GPIO pins are considered.</h4>
+                                <h4> There are some great 'Getting Started' articles out there, including <a href="http://www.engadget.com/2012/09/04/raspberry-pi-getting-started-guide-how-to/">engagdet's</a> and <a href="https://www.raspberrypi.org/help/">Raspberry Pi's</a>. These both include the items that you'll need before getting started.
+                                <h4> To get going, you'll also need to <a href="https://www.raspberrypi.org/downloads/noobs/">load</a> an OS: <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a> is the official open-source linux-based RPi OS, which is pre-installed with Python, Scratch, Sonic Pi, Java, Mathematica and more.</h4>
+                                <h4> Once up and running, you basically have a full Linux box running Debian.</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        
-    
-            <!-- Footer -->
-            <div id="footer">
-                <div class="footer-text">
-                    <h4>Have fun!</h4>
-                    <h6>P.S. Sorry it's a little late ...</h6>
+            
+            
+                <!-- Resources -->
+                <div id="resources-section" class="section-div"><span id="resources" class="anchor"></span>
+                    <div id="resources-header" class="resources-text">
+                        <h1> Resources </h1>
+                    </div>
+                
+                    <div class="resources-text center-div">
+                        <div class="row"> 
+                            <div class="small-12 columns">
+                            
+                                <h2> Getting Started </h2>
+                                <h4><a href="https://www.raspberrypi.org/help/">RaspberryPi.org:</a> Help pages</h4>
+                                <h4><a href="http://www.engadget.com/2012/09/04/raspberry-pi-getting-started-guide-how-to/">Engagdet:</a> "So you got a Raspberry Pi: now what?"</h4>
+                                <h4><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Wikipedia:</a> Raspberry Pi</h4>
+                                
+                                <br>
+                                
+                                <h2> Further Reading </h2>
+                                <h4><a href="https://www.raspberrypi.org/magpi/">RaspberryPi.org:</a> Official magazine</h4>
+                                <h4><a href="http://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/">RPi.GPIO:</a> A Python module to control the GPIO on a Raspberry Pi.</h4>
+                                <h4><a href="http://piweekly.net/">PiWeekly:</a> Newsletter collating relevant articles from around the web.</h4>
+                                
+                                <br>
+                                
+                                <h2> Shop </h2>
+                                <h4><a href="https://www.raspberrypi.org/products/">RaspberryPi.org:</a> Official products</h4>
+                                <h4><a href="http://www.modmypi.com/raspberry-pi/">ModMyPi:</a> Great for components, sensors and accessories etc.</h4>
+                                <h4><a href="http://uk.rs-online.com/web/b/raspberry-pi/">RadioSpares:</a> Sells Raspberry Pi products (limited range) in shops as well as online.</h4>
+                                
+                                <br>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            
+        
+                <!-- Inspiration -->
+                <div id="inspiration-section" class="section-div"><span id="inspiration" class="anchor"></span>
+                    <div id="inspiration-header" class="inspiration-text">
+                        <h1> Ideas </h1>
+                    </div>
+                
+                    <div class="inspiration-text center-div">
+                        <div class="row">
+                            <div class="small-12 columns">
+                                <h2> Community </h2>
+                                <h4><a href="https://www.raspberrypi.org/forums/viewforum.php?f=15">RaspberryPi.org:</a> Projects forum</h4>
+                                <h4><a href="http://elinux.org/RPi_Projects">eLinux.org:</a> Open-source, on-going, collaborative projects and ideas.</h4>
+                                <h4><a href="https://hackaday.io/projects/tag/raspberry%20pi">hackaday.io:</a> Cool projects shared by proud creators.</h4>
+                            
+                                <br>
+                            
+                                <h2> Bunnies! </h2>
+                                <div class="small-12 medium-6 columns">
+                                    <h4><a href="http://sybil.no-ip.org:5001">Bunny Watcher:</a> My living room - captured, uploaded and served by a Raspberry Pi A+. </h4>
+                                </div>
+                                <div class="small-12 medium-6 columns">
+                                    <a href="http://sybil.no-ip.org:5001">
+                                        <img src="images/bunnies.jpg" alt="Bunny Watcher"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        
+                <!-- Footer -->
+                <div id="footer">
+                    <div class="footer-text">
+                        <h4>Have fun!</h4>
+                        <h6>P.S. Sorry it's a little late ...</h6>
+                    </div>
+                </div>
+                
             </div>
+            
         </div>
-    
-    
+        
         <!-- JS -->
         <script type="text/javascript" src="javascript/jquery.js"></script>
         <script type="text/javascript" src="javascript/fastclick.js"></script>
         <script type="text/javascript" src="javascript/foundation.min.js"></script>
-        <script type="text/javascript" src="javascript/modernizr.js"></script>
+        <script type="text/javascript">
+            $(document).foundation();
+        </script>
     </body>
 </html>
